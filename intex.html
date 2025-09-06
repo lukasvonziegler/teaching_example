@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello JupyterLite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <h2>Launching JupyterLite…</h2>
+  <script src="https://cdn.jsdelivr.net/npm/@jupyterlite/embed@0.1.0-beta.20/dist/embed.js"></script>
+  <script>
+    // Launch the full JupyterLab interface
+    jupyterlite.embed({
+      // Where notebooks live
+      files: ["hello.ipynb"]
+    });
+  </script>
+</body>
+</html>
