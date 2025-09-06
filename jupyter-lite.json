@@ -14,8 +14,18 @@
     "federated_extensions": [
       {
         "extension": "./extension",
+        "load": "static/remoteEntry.35b6c65bd99dab37b910.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
         "load": "static/remoteEntry.3745c44cbbd62cec9a73.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.fb45db9d3f32bd4bc57a.js",
+        "name": "ipycanvas"
       },
       {
         "extension": "./extension",
