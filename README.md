@@ -1,6 +1,6 @@
 # JupyterLite Hello World
 
-Open in your browser: https://USERNAME.github.io/jupyterlite-hello-world/
+Open in your browser: https://lukasvonziegler.github.io/teaching_example/
 
 Notes:
 - Runs fully in the browser (Pyodide).
